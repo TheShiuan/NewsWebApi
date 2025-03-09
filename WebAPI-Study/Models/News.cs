@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace News;
+
+public partial class News
+{
+    public Guid NewsId { get; set; }
+
+    public string Title { get; set; }
+
+    public string Content { get; set; }
+
+    public DateTime StartDateTime { get; set; }
+
+    public DateTime EndDateTime { get; set; }
+
+    public DateTime InsertDateTime { get; set; }
+
+    public DateTime UpdateDateTime { get; set; }
+
+    public Guid InsertEmployeeId { get; set; }
+
+    public Guid UpdateEmployeeId { get; set; }
+
+    public int Click { get; set; }
+
+    public bool Enable { get; set; }
+}
