@@ -28,7 +28,7 @@ namespace News.Controllers
         [HttpPost]
         public string login(LoginPostDto value)
         {
-            var user = (from a in _webContext.Enployees
+            var user = (from a in _webContext.Employees
                         where a.Account == value.Account
                         && a.Password == value.Password
                         select a).SingleOrDefault();
@@ -52,7 +52,7 @@ namespace News.Controllers
 
                 foreach (var temp in role)
                 {
-                    claims.Add(new Claim(ClaimTypes.Role, temp.Role));
+                    claims.Add(new Claim(ClaimTypes.Role, temp.Role1));
                 }
 
                 var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -64,7 +64,7 @@ namespace News.Controllers
         [HttpPost("jwtLogin")]
         public string jwtLogin(LoginPostDto value)
         {
-            var user = (from a in _webContext.Enployees
+            var user = (from a in _webContext.Employees
                         where a.Account == value.Account
                         && a.Password == value.Password
                         select a).SingleOrDefault();
@@ -88,7 +88,7 @@ namespace News.Controllers
 
                 foreach (var temp in role)
                 {
-                    claims.Add(new Claim(ClaimTypes.Role, temp.Role));
+                    claims.Add(new Claim(ClaimTypes.Role, temp.Role1));
                 }
 
                 //取得 appsettings jwt key

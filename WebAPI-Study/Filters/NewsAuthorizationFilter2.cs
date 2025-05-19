@@ -15,7 +15,7 @@ namespace News.Filters
             WebContext _webContext = context.HttpContext.RequestServices.GetService<WebContext>();
 
             var role = (from a in _webContext.Roles
-                        where a.Role == Roles
+                        where a.Role1 == Roles
                         select a).FirstOrDefault();
             if (role == null)
             {
