@@ -1,6 +1,6 @@
-﻿using News.Dtos;
+﻿using System.ComponentModel.DataAnnotations;
+using News.Dtos;
 using News.Models;
-using System.ComponentModel.DataAnnotations;
 
 namespace WebAPI_Study.Abstracts
 {

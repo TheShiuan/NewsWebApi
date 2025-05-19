@@ -13,8 +13,8 @@ namespace News.ValidationAttributes
             var title = (string)value;
 
             var findTitle = from a in _webContext.News
-                           where a.Title == title
-                           select a;
+                            where a.Title == title
+                            select a;
 
             var dto = validationContext.ObjectInstance;
 

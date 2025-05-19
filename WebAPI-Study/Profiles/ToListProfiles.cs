@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using News.Dtos;
-using News.Models;
 
 namespace News.Profiles
 {

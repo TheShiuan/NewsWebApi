@@ -1,10 +1,8 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using News.Dtos;
+using News.Interfaces;
 using News.Models;
 using News.Parameters;
-using News.Interfaces;
-using Microsoft.EntityFrameworkCore;
 
 namespace News.Services
 {

@@ -1,9 +1,9 @@
-﻿using AutoMapper;
+﻿using System.Security.Claims;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using News.Dtos;
 using News.Models;
 using News.Parameters;
-using System.Security.Claims;
 
 namespace News.Services
 {

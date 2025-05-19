@@ -1,5 +1,4 @@
-﻿using News.ValidationAttributes;
-using WebAPI_Study.Abstracts;
+﻿using WebAPI_Study.Abstracts;
 
 namespace News.Dtos
 {
