@@ -5,6 +5,7 @@
     <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>News</RootNamespace>
+    <UserSecretsId>205026e6-9d7e-435a-921b-6a3dbb404ae4</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
