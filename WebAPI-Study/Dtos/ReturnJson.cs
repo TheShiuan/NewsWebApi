@@ -1,4 +1,4 @@
-﻿namespace News.Dtos
+﻿namespace NewsWebAPI.Dtos
 {
     public class ReturnJson
     {

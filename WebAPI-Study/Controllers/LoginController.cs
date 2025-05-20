@@ -6,10 +6,10 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using News.Dtos;
-using News.Models;
+using NewsWebAPI.Dtos;
+using NewsWebAPI.Models;
 
-namespace News.Controllers
+namespace NewsWebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using News.Dtos;
-using News.Models;
+using NewsWebAPI.Dtos;
+using NewsWebAPI.Models;
 
-namespace News.Filters
+namespace NewsWebAPI.Filters
 {
     public class NewsAuthorizationFilter2 : Attribute, IAuthorizationFilter
     {

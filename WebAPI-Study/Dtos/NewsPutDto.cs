@@ -1,6 +1,6 @@
-﻿using WebAPI_Study.Abstracts;
+﻿using NewsWebAPI.Abstracts;
 
-namespace News.Dtos
+namespace NewsWebAPI.Dtos
 {
     public class NewsPutDto : NewsDtoAbstracts
     {

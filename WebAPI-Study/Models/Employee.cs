@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace News.Models;
+namespace NewsWebAPI.Models;
 
 public partial class Employee
 {

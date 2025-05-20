@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using News.Filters;
+using NewsWebAPI.Filters;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace WebAPI_Study.Controllers
+namespace NewsWebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

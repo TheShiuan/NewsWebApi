@@ -1,4 +1,4 @@
-namespace WebAPI_Study
+namespace NewsWebAPI
 {
     public class WeatherForecast
     {

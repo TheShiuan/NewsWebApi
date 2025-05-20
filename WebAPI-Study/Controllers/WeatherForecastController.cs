@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebAPI_Study.Controllers
+namespace NewsWebAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]

@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using News.Dtos;
-using News.Models;
+using NewsWebAPI.Dtos;
+using NewsWebAPI.Models;
 
-namespace News.ValidationAttributes
+namespace NewsWebAPI.ValidationAttributes
 {
     public class NewsTitleAttribute : ValidationAttribute
     {

@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using News.Dtos;
-using News.Interfaces;
-using News.Parameters;
+using NewsWebAPI.Dtos;
+using NewsWebAPI.Interfaces;
+using NewsWebAPI.Parameters;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace News.Controllers
+namespace NewsWebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

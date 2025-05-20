@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using News.Dtos;
+using NewsWebAPI.Dtos;
 
-namespace News.Filters
+namespace NewsWebAPI.Filters
 {
     public class FileLimitAttribute : Attribute, IResourceFilter
     {

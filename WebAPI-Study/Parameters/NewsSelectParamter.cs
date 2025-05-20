@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace News.Parameters
+namespace NewsWebAPI.Parameters
 {
     public class NewsSelectParamter
     {

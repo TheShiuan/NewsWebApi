@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using News.Dtos;
+using NewsWebAPI.Dtos;
 
-namespace News.ValidationAttributes
+namespace NewsWebAPI.ValidationAttributes
 {
     public class StartEndAttribute : ValidationAttribute
     {

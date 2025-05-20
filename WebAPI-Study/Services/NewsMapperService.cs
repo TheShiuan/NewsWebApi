@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using News.Dtos;
-using News.Interfaces;
-using News.Models;
-using News.Parameters;
+using NewsWebAPI.Dtos;
+using NewsWebAPI.Interfaces;
+using NewsWebAPI.Models;
+using NewsWebAPI.Parameters;
 
-namespace News.Services
+namespace NewsWebAPI.Services
 {
     public class NewsMapperService : INewsServices
     {

@@ -1,4 +1,4 @@
-﻿namespace News.Models;
+﻿namespace NewsWebAPI.Models;
 
 public partial class Roles
 {

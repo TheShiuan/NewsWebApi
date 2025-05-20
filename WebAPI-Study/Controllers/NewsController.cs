@@ -2,14 +2,14 @@
 using AutoMapper;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
-using News.Dtos;
-using News.Models;
-using News.Parameters;
-using News.Services;
+using NewsWebAPI.Dtos;
+using NewsWebAPI.Models;
+using NewsWebAPI.Parameters;
+using NewsWebAPI.Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace News.Controllers
+namespace NewsWebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using News.Filters;
-using News.Interfaces;
-using News.Models;
-using News.Services;
+using NewsWebAPI.Filters;
+using NewsWebAPI.Interfaces;
+using NewsWebAPI.Models;
+using NewsWebAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 var Configuration = builder.Configuration;

@@ -1,7 +1,8 @@
 ﻿using AutoMapper;
-using News.Dtos;
+using NewsWebAPI.Dtos;
+using NewsWebAPI.Models;
 
-namespace News.Profiles
+namespace NewsWebAPI.Profiles
 {
     public class ToListProfiles : Profile
     {

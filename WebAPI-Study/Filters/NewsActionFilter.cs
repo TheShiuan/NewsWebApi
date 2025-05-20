@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace News.Filters
+namespace NewsWebAPI.Filters
 {
     public class NewsActionFilter : IActionFilter
     {

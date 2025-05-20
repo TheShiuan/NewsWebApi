@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace News.Models;
+namespace NewsWebAPI.Models;
 
 public partial class WebContext : DbContext
 {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using News.Dtos;
-using News.Parameters;
+using NewsWebAPI.Dtos;
+using NewsWebAPI.Parameters;
 
-namespace News.Interfaces
+namespace NewsWebAPI.Interfaces
 {
     public interface INewsServices
     {

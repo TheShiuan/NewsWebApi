@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using News.Dtos;
-using News.Models;
+using NewsWebAPI.Dtos;
+using NewsWebAPI.Models;
 
-namespace WebAPI_Study.Abstracts
+namespace NewsWebAPI.Abstracts
 {
     public abstract class NewsDtoAbstracts : IValidatableObject
     {
