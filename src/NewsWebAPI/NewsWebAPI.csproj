@@ -22,11 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <None Include="efpt.config.json.user" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="efpt.config.json.user" />
+    <ProjectReference Include="..\News.DB\News.DB.csproj" />
   </ItemGroup>
 
 </Project>
